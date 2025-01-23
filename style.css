@@ -1,0 +1,102 @@
+/*BASIC-------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+ul{
+    list-style: none;
+}
+
+/*HERO-------------------*/
+#hero{
+    background-color: #f5f7fb;
+    display: flex;
+    flex-direction: column;
+    min-height: 600px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+    color: #141a69;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.logo span{
+    background-color: #141a69;
+    color: #fff;
+    padding: 0px 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 40px;
+}
+
+.menu li a{
+    margin: 0 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #303030;
+    transition: allease 0.3s;
+}
+
+.menu li a:hover{
+    color: #101bb1;
+}
+
+.nav-appointment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #141a69;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid #141a69;
+    transition: all ease 0.3s;
+}
+
+.nav-appointment:hover{
+    background-color: #fff;
+    color: #141a69;
+}
+
+.mainpage-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.mainpage-content h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #141a69;
+    margin-bottom: 20px;
+}
